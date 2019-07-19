@@ -19,6 +19,3 @@ def now_serving(nextinline)
     nextinline.shift
   end
 end
-
-def 
-end
