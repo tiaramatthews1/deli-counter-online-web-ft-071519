@@ -5,7 +5,7 @@ def line(katz_deli)
     if nextinline.length == 0
     puts "The line is currently empty."
   else 
-    katz_deli.each.index
+    katz_deli.each.index(0) do 
   end
 end
 
