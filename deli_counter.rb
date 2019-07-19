@@ -1,16 +1,6 @@
 katz_deli = []
 
-def line(numinline)
-  if katz_deli == []
-    if numinline.length == 0
-    puts "The line is currently empty."
-  else 
-    katz_deli.each.index(0) do |name, index|
-      katz_deli.push("#{index}. #{name}")
-  end
-  puts "The line is: #{katz_deli.join}(" ") } "
-  end
-end
+
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
