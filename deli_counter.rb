@@ -8,7 +8,8 @@ def line(katz_deli)
     katz_deli.each.index(0) do |name, index|
       katz_deli.push("#{index}. #{name}")
   end
-  puts "The line is: #{katz_deli.join}(" ")"}
+  puts "The line is: #{katz_deli.join}(" ") } "
+  end
 end
 
 def take_a_number(katz_deli, name)
